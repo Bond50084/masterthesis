@@ -1,0 +1,34 @@
+# --- Python / uv ---
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# --- MD-Trajektorien und große Binaries ---
+data/trajectories/
+data/processed/
+*.xtc
+*.trr
+*.dcd
+*.nc
+*.h5
+*.edr
+*.cpt
+*.tpr
+
+# --- Abbildungen: regenerierbar, daher per Default raus ---
+figures/*
+!figures/.gitkeep
+
+# --- Paper-PDFs: Lizenz + Größe ---
+docs/papers/
+
+# --- macOS / Editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Claude Code: persönliche Einstellungen ---
+.claude/settings.local.json

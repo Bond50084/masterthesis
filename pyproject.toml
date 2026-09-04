@@ -1,0 +1,25 @@
+[project]
+name = "ma-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.1",
+    "mdintrinsicdimension",
+    "mdtraj>=1.11.1.post2",
+    "numpy>=2.4.6",
+    "pandas>=3.0.5",
+    "scikit-dimension>=0.3.7",
+    "scipy>=1.18.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "pytest>=9.1.1",
+    "ruff>=0.16.5",
+]
+
+[tool.uv.sources]
+mdintrinsicdimension = { git = "https://github.com/giorginolab/MDIntrinsicDimension.git" }
