@@ -1,0 +1,15 @@
+*.xtc
+*.trr
+*.tpr
+*.edr
+*.cpt
+*.gro
+
+# MDAnalysis / MDTraj offset caches and locks
+.*.xtc_offsets*
+*.xtc_offsets.npz
+*.lock
+
+# GROMACS backup files
+#*#
+*#
